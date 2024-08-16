@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieNChill</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <div class="header">
+    <a href="#default" class="logo">Logo</a>
+    <div class="header-right">
+      <span class="material-symbols-outlined" style="font-size: 50px; color: white;">account_circle</span>
+    </div>
+  </div>
+
+  <div class="featured">
+    <h2>Featured Movies</h2>
+    <div class="carousel-container">
+      <button class="scroll-button left" onclick="scrollCarousel(-1)">&#10094;</button>
+      <div class="carousel">
+        <img
+          src="https://img.bunnyccdn.co/_r/300x400/100/41/ad/41adea817f66830f8d965562c2d62e03/41adea817f66830f8d965562c2d62e03.jpg"
+          alt="Movie 1">
+        <img
+          src="https://img.bunnyccdn.co/_r/300x400/100/28/a6/28a6148a40022320436d20ea91e2800d/28a6148a40022320436d20ea91e2800d.jpg"
+          alt="Movie 2">
+        <img
+          src="https://imgs.search.brave.com/Kd9db9PQGfuCxtqL-dlzwgrqM4jaPQLHd3y9O0RlQzM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5qZzBZVFZq/TlRJdFpUSTFaQzAw/TURabExUbGxZalF0/TURZME9ETXhORGRs/WWpZM1hrRXlYa0Zx/Y0djQC5qcGc"
+          alt="Movie 3">
+        <img
+          src="https://imgs.search.brave.com/eDJ1vzPlddmQPeWi4B4Xnum3uLpAf4Ux-U83LsrEs8c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpEZzVPVGd6/TlRFdE1ESm1PUzAw/TVdNekxXRm1ZbVF0/TlRObFpqZzVZakkx/WWpSaVhrRXlYa0Zx/Y0dkZVFYVnlNemd4/T0RNNE5qTUAuanBn"
+          alt="Movie 4">
+        <img
+          src="https://imgs.search.brave.com/ymtCj8B7ht50NTbyGV0RdhI76C-TOaImxq70xMaUPT8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLmdhbWVyYW50/aW1hZ2VzLmNvbS93/b3JkcHJlc3Mvd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDkv/b25lLXBpZWNlLTku/anBn"
+          alt="Movie 5">
+        <img
+          src="https://imgs.search.brave.com/5dRdjfTLE55oIqmbOP9_FMKu7Do9a2uXHMWYBgDjM6A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/dXMuYW5pZGIubmV0/L2ltYWdlcy9tYWlu/LzI5NTA4Mi5qcGc"
+          alt="Movie 6">
+        <img
+          src="https://imgs.search.brave.com/ez5LJ24YuTFOcEjmF1noBBnH8_4dhwLq0RdQC1S062w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLmdhbWVyYW50/aW1hZ2VzLmNvbS93/b3JkcHJlc3Mvd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMTEv/bXVzaG9rdS10ZW5z/ZWkuanBn"
+          alt="Movie 7">
+        <img
+          src="https://imgs.search.brave.com/ok7ODFv_wTASbFwqAFhTgrE8kZTpnUYRGB2bs6eLzrk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLnNyY2RuLmNv/bS93b3JkcHJlc3Mv/d3AtY29udGVudC91/cGxvYWRzLzIwMjQv/MDIvdGhhdC10aW1l/LWktZ290LXJlaW5j/YXJuYXRlZC1hcy1h/LXNsaW1lLXR2LXNl/cmllcy1wb3N0ZXIu/anBn"
+          alt="Movie 8">
+        <img
+          src="https://imgs.search.brave.com/7DTh2Gv2tdSjVPma9ZxtA6kzs_Sg6Ym6y5PBAnco4qM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QllqaGxNek5p/TmpRdFpqUTVOaTAw/TjJZMExUbGxZbU10/TURreFltSTJPVGxp/T0RObVhrRXlYa0Zx/Y0djQC5qcGc"
+          alt="Movie 9">
+        <img
+          src="https://imgs.search.brave.com/Vvu1BktWp8ouitMYh5Z9UGV2srx770ci9nyWJSlC6Jc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpXUXpNREJs/T0dJdE5HVmpPQzAw/WWpVekxXSTVNV010/TVRobE0yTXdabVUy/WlRSbVhrRXlYa0Zx/Y0djQC5qcGc"
+          alt="Movie 10">
+        <img
+          src="https://img.bunnyccdn.co/_r/300x400/100/e5/43/e5439875b4262583ec34720afd5e5f10/e5439875b4262583ec34720afd5e5f10.jpg"
+          alt="Movie 11">
+        <img
+          src="https://imgs.search.brave.com/i2AE6zIx03dk6xoLrTn4TQn9uf-5BA3S10e9_xnzOWA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5XVTFPVGd4/WVRNdFpUVmlNeTAw/TW1VMExUZzJaR010/WkRWa1lUTmxZekk0/TldSalhrRXlYa0Zx/Y0djQC5qcGc"
+          alt="Movie 12">
+        <img
+          src="https://imgs.search.brave.com/-H2HCue_X8xcPuR_dgV_NEZZysOW2gxZDzTH6VY8K8Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpHRXlObVEw/WldRdFl6RTFNaTAw/WkRoa0xUaGxaRGN0/T1RreE5UTXlaV1U1/TW1FMVhrRXlYa0Zx/Y0dkZVFYVnlNalF6/TWpZNE1qVUAuanBn"
+          alt="Movie 13">
+        <img src="https://img.bunnyccdn.co/_r/300x400/100/e3/c2/e3c297a2d497a575bb71997f7ac70981/e3c297a2d497a575bb71997f7ac70981.jpg" alt="Movie 14">
+        <img src="https://img.bunnyccdn.co/_r/300x400/100/d6/b6/d6b6d4a43555afa74323871b9dcf107e/d6b6d4a43555afa74323871b9dcf107e.jpg" alt="Movie 15">
+        <img src="https://img.bunnyccdn.co/_r/300x400/100/e3/86/e386fd8a364170c8610ecbe3b0363107/e386fd8a364170c8610ecbe3b0363107.jpg" alt="Movie 16">
+      </div>
+      <button class="scroll-button right" onclick="scrollCarousel(1)">&#10095;</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Movie n Chill</p>
+    <ul class="social-links">
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
